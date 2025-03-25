@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+
+}
+
+
+.usuario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+
+    & img {
+        height: 50%;
+
+    }
+
+    .conteiner {
+
+        border: solid 2px rgb(124, 124, 124);
+        border-radius: 8px;
+        padding: 100px 50px;
+
+
+
+        & .login {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            & header {
+
+                & .titulo {
+
+                    & p {
+                        font-size: 25px;
+                        font-weight: 300;
+
+                    }
+                }
+
+                & h1 {
+                    font-size: 31px;
+                    font-weight: 600;
+
+                }
+
+                & p {
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            & .senha,
+            .email {
+
+                & label {
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+
+
+                & input {
+                    width: 430px;
+                    padding: 20px;
+                    border-radius: 6px;
+                    border: solid#808080cc 0.6px;
+                    font-size: 14px;
+
+                }
+            }
+
+            .lembre {
+                display: flex;
+                align-items: center;
+                gap: 150px;
+
+                & a {
+
+                    color: rgb(122, 122, 122);
+                }
+
+            }
+
+            & .botao {
+
+                & input {
+
+                    width: 430px;
+                    padding: 20px;
+                    font-family: 16px;
+                    background-color: #111111;
+                    color: aliceblue;
+                    border-radius: 8px;
+                }
+
+            }
+
+
+        }
+    }
+}
